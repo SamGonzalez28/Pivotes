@@ -1,0 +1,2 @@
+# Pivotes
+Metodo Simplex
