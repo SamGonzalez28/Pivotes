@@ -46,6 +46,7 @@
             this.nUDres = new System.Windows.Forms.NumericUpDown();
             this.nUDvar = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgRestriccion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgFuncion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgResult)).BeginInit();
@@ -159,7 +160,7 @@
             this.dgResult.Location = new System.Drawing.Point(16, 246);
             this.dgResult.Name = "dgResult";
             this.dgResult.ReadOnly = true;
-            this.dgResult.Size = new System.Drawing.Size(756, 150);
+            this.dgResult.Size = new System.Drawing.Size(660, 150);
             this.dgResult.TabIndex = 109;
             // 
             // comboBox2
@@ -238,11 +239,23 @@
             this.label1.TabIndex = 115;
             this.label1.Text = "N° Variable";
             // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(694, 270);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 34);
+            this.btnNuevo.TabIndex = 117;
+            this.btnNuevo.Text = "Nuevo Pivote";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Visible = false;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 467);
+            this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.nUDvar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nUDres);
@@ -284,6 +297,7 @@
         private System.Windows.Forms.NumericUpDown nUDres;
         private System.Windows.Forms.NumericUpDown nUDvar;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnNuevo;
     }
 }
 
