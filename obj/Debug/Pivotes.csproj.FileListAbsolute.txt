@@ -1,0 +1,9 @@
+C:\Users\Windows\source\repos\Pivotes\bin\Debug\Pivotes.exe.config
+C:\Users\Windows\source\repos\Pivotes\bin\Debug\Pivotes.exe
+C:\Users\Windows\source\repos\Pivotes\bin\Debug\Pivotes.pdb
+C:\Users\Windows\source\repos\Pivotes\obj\Debug\Pivotes.csprojAssemblyReference.cache
+C:\Users\Windows\source\repos\Pivotes\obj\Debug\Pivotes.Properties.Resources.resources
+C:\Users\Windows\source\repos\Pivotes\obj\Debug\Pivotes.csproj.GenerateResource.cache
+C:\Users\Windows\source\repos\Pivotes\obj\Debug\Pivotes.exe
+C:\Users\Windows\source\repos\Pivotes\obj\Debug\Pivotes.pdb
+C:\Users\Windows\source\repos\Pivotes\obj\Debug\Pivotes.Form1.resources
